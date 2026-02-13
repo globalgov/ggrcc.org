@@ -45,10 +45,12 @@ body {
 }
 
 .nav-brand a {
-    color: var(--white);
+    color: var(--secondary-color);
     text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Avenir', 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    letter-spacing: 0.05em;
 }
 
 .nav-menu {
