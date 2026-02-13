@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
-    --accent-color: #e74c3c;
+    --primary-color: #2c5f6f;
+    --secondary-color: #c87533;
+    --accent-color: #6b4c7a;
     --text-color: #333;
     --light-bg: #f8f9fa;
     --white: #ffffff;
@@ -203,6 +203,25 @@ body {
     border-radius: 5px;
     font-weight: bold;
     margin-bottom: 1rem;
+}
+
+.event-type {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+.event-type.online {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+.event-type.in-person {
+    background-color: #f3e5f5;
+    color: #7b1fa2;
 }
 
 .event-card h3 {
