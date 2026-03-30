@@ -160,6 +160,13 @@ body {
     font-size: 1.5rem;
 }
 
+.member-logo {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
 /* Content Sections */
 .content-section {
     padding: 4rem 0;
